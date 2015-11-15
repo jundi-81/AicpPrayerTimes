@@ -1,0 +1,98 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aicpa"
+    android:versionCode="14"
+    android:versionName="1.2.9" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" android:label="@string/app_name">
+        
+        <activity
+            android:name="com.aicpa.main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name="com.aicpa.main.AlarmReceiver">
+        </receiver>
+         
+        <activity
+            android:name="com.aicpa.main.SettingsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.aicpa.main.AlertActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.Alert" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.aicpa.main.CityFinder"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <activity android:theme="@android:style/Theme.Dialog"
+            android:name="com.aicpa.main.CityFinderManual"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <activity 
+            android:name="com.aicpa.main.AwradList"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.aicpa.main.CalendarActivity"
+            android:screenOrientation="portrait" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.exina.android.calendar.date" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.exina.android.calendar.date" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.aicpa.main.About"
+            android:screenOrientation="portrait" >
+        </activity>
+
+         <receiver android:name="com.aicpa.main.OnBootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.FLAG_INCLUDE_STOPPED_PACKAGES" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

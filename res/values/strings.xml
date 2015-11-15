@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AICP Prayer times</string>
+    <string name="am">ص</string>
+    <string name="pm">م</string>
+    <string name="calendartxt1">الرزنامة</string>
+    <string name="countrytxt">جمعية المشاريع</string>
+
+    <string-array name="monthsValues">
+        <item name="1">كانون الثان</item>
+        <item name="2">شباط</item>
+        <item name="3">آذار</item>
+        <item name="4">نيسان</item>
+        <item name="5">أيار</item>
+        <item name="6">حزيران</item>
+        <item name="7">تموز</item>
+        <item name="8">آب</item>
+        <item name="9">أيلول</item>
+        <item name="10">تشرين الأول</item>
+        <item name="11">تشرين الثاني</item>
+        <item name="12">كانون الأول</item>
+    </string-array>
+    <string-array name="months">
+        <item name="1">Jan</item>
+        <item name="2">Feb</item>
+        <item name="3">Mar</item>
+        <item name="4">Apr</item>
+        <item name="5">May</item>
+        <item name="6">Jun</item>
+        <item name="7">Jul</item>
+        <item name="8">Aug</item>
+        <item name="9">Sep</item>
+        <item name="10">Oct</item>
+        <item name="11">Nov</item>
+        <item name="12">Dec</item>
+    </string-array>
+    <string-array name="prayers">
+        <item name="0">الصبح</item>
+        <item name="0">الظهر</item>
+        <item name="0">العصر</item>
+        <item name="0">المغرب</item>
+        <item name="0">العشاء</item>
+    </string-array>
+    <string-array name="season">
+        <item name="1">صيفي</item>
+        <item name="2">شتوي</item>
+    </string-array>
+    <string-array name="seasonValues">
+        <item name="1">Summer</item>
+        <item name="2">Winter</item>
+    </string-array>
+    <string-array name="calendarEntry">
+        <item name="1">أم القرى</item>
+        <item name="2">أمريكا الشمالية</item>
+        <item name="3">	جامعة العلوم الإسلامية بكراتشى</item>
+        <item name="4">	رابطة العالم الإسلامي</item>
+        <item name="5">	الهيئة العامة المصرية للمساحة</item>
+    </string-array>
+    <string-array name="calendarValues">
+        <item name="1">UmmAlQuraUniv</item>
+        <item name="2">IslamicSocietyOfNorthAmerica</item>
+        <item name="3">UnivOfIslamicScincesKarachi</item>
+        <item name="4">MuslimWorldLeague</item>
+        <item name="5">EgytionGeneralAuthorityofSurvey</item>
+    </string-array>
+    <string-array name="silentStartEntry">
+        <item name="immediately">بعد الأذان مباشرة</item>
+        <item name="minutes10">10 دقيقة</item>
+        <item name="minutes20">20 دقيقة</item>
+    </string-array>
+    <string-array name="silentStartEntryValues">
+        <item name="immediately">2</item>
+        <item name="minutes10">10</item>
+        <item name="minutes20">20</item>
+    </string-array>
+    <string-array name="silentDurationEntry">
+        <item>10 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>30 دقيقة</item>
+    </string-array>
+    <string-array name="silentDurationEntryValues">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="notSoundEntry">
+        <item name="Disable">بدون صوت</item>
+        <item name="short">تنبيه</item>
+        <item name="full">أذان كامل</item>
+    </string-array>
+    <string-array name="notSoundValues">
+        <item name="Disable">Disable</item>
+        <item name="short">short</item>
+        <item name="full">full</item>
+    </string-array>
+
+    <string name="nothing">بدون أذان</string>
+    <string name="azantext">صوت  الأذان</string>
+    <string name="default1">نغمة فقط</string>
+    <string name="kheir_begin">الشيخ محمد الخير - تكبيرة</string>
+    <string name="karanouh_begin">الشيخ  معروف قرانوح  - تكبيرة</string>
+    <string name="kheir_all">الشيخ محمد الخير - الأذان</string>
+    <string name="karanouh_all">الشيخ معروف قرانوح - الأذان</string>
+    <string name="fayed_all">الشيخ هادي فايد - الأذان</string>
+    <string name="dabliz_all">الشيخ سمير دبليز - الأذان</string>
+    <string name="jundi_all">المنشد عبد الله الجندي - الأذان</string>
+    <string name="soon">ترقبونا في النسخة المقبلة إن شاء الله</string>
+    <string name="locationSettings">إعدادات المدينة</string>
+    <string name="firstPreferencescreenTitle">المدينة</string>
+    <string name="autoCityTitle">ابحث عن مدينتي</string>
+    <string name="autoCitySummary">البحث عن المدينة التي تتواجد بها الآن عن طريق أبراج الاتصالات أو عن طريق الأقمار الصناعية </string>
+    <string name="country">الدولة</string>
+    <string name="countryDlgTitle">اختر الدولة</string>
+    <string name="city">المدينة</string>
+    <string name="cityDlgTitle">اختر المدينة</string>
+    <string name="silentSettings">إعدادات الوضع الصامت</string>
+    <string name="disableTitle">إيقاف التحويل إلى صامت</string>
+    <string name="disableSummary">إيقاف التحويل التلقائي إلى الوضع الصامت عندما يحين وقت الأذان</string>
+    <string name="silentStartTitle">وقت البدء بالوضع الصامت</string>
+    <string name="silentStartDlgTitle">متى يتم التحويل إلى صامت؟</string>
+    <string name="silentStartSummary">متى ترغب بالتحويل إلى الوضع الصامت عندما يحين وقت الأذان</string>
+    <string name="silentDurationTitle">مدة الوضع الصامت</string>
+    <string name="silentDurationSummary">مدة بقاء النظام على الوضع الصامت بعد الأذان</string>
+    <string name="silentDurationDlgTitle">مدة البقاء على الوضع الصامت</string>
+    <string name="generalSettings">إعدادات عامة</string>
+    <string name="notSoundTitle">صوت الإشعار</string>
+    <string name="notSoundDlgTitle">صوت الإشعار</string>
+    <string name="mazhabTitle">المذهب الفقهي</string>
+    <string name="mazhabDlgTitle">المذهب الفقهي</string>
+    <string name="mazhabSummary"></string>
+    <string name="seasonTitle">التوقيت </string>
+    <string name="seasonDlgTitle">التوقيت </string>
+    <string name="autoSearch">البحث التلقائي</string>
+    <string name="manualSearch">البحث اليدوي</string>
+    <string name="reSearch">المحاولة مرة أخرى</string>
+    <string name="settings">الإعدادات</string>
+    <string name="about">عن الفريق</string>
+    <string name="close">إغلاق</string>
+    <string name="minutes20">20 دقيقة</string>
+    <string name="minutes30">30 دقيقة</string>
+    <string name="minutes10">10 دقائق</string>
+    <string name="now">بعد الأذان مباشرة</string>
+    <string name="autoSearchHowDisabled">خدمة  جي-بي-إس  و خدمة أبراج الشبكة  لاتعمل الآن ، في حال أردت أن تقوم بالبحث التلقائي عن المدينة فيجب تشغيلها ثم العودة مرة أخرى   ، سيتم نقلك الآن لإعدادات النظام </string>
+    <string name="autoSearchHowEnabled">خدمة  جي-بي-إس  أو خدمة أبراج الشبكة  تعمل ، سيتم البحث الآن  عن مدينتك</string>
+    <string name="notTitle">حان وقت الصلاة</string>
+    <string name="notContent">حان وقت الصلاة</string>
+    <string name="teamName"><a href="http://shefrah.com/">تطوير و برمجة فريق المشاريع</a></string>
+    <string name="gpsAndNetworkIsDisabled"> لا يمكن الحصول على إحداثيات موقعك الحالي.يجب تفعيل جي-بي-إس أو شبكة الاتصال أو محاولة البحث بطريقة يدوية.</string>
+    <string name="pleaseWait">الرجاء الانتظار</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">موافق</string>
+    <string name="noLocationFound">لم يتم العثور على مدينة في موقعك الحالي</string>
+    <string name="dialogAutoSearchMessage">سيتم البحث بإستخدام أبراج الشبكة أو خدمة جي-بي-إس ، تأكد من تفعيل إحدى الخدمتين ليتم العثور على المدينة</string>
+    <string name="version">1.2 نسخة تجريبية</string>
+    <string name="website">http://www.aicp.org</string>
+    <string name="calcMethodTitle">طريقة الحساب</string>
+    <string name="calcMethodDlgTitle">طريقة الحساب</string>
+    <string name="fajrtxt">الفجر</string>
+    <string name="duhrtxt">الظهر</string>
+    <string name="asrtxt">العصر</string>
+    <string name="magribtxt">المغرب</string>
+    <string name="ishatxt">العشاء</string>
+    <string name="remaintxt">الوقت المتبقي</string>
+    <string name="citytxt">المدينة</string>
+    <string name="azandoaa">اللهم ربَّ هذه الدعوة التامة ، والصلاة القائمة ، آت محمداً الوسيلة والفضيلة ، وابعثه اللهم مقاماً محموداً الذي وعدته.</string>
+    <string name="cityfinder_desc">الإعدادات تظهر أن مدينتك الحالية هي:</string>
+    <string name="cityfinder_desc2">نتيجة البحث تظهر أن موقعك في مدينة:</string>
+    <string name="cityfinder_searchInternet"> البحث عن طريق الانترنت</string>
+    <string name="cityfinder_searchWithoutInternet"> البحث دون اتصال بالانترنت</string>
+    <string name="cityfinder_nosearch">لا أريد تحديث موقعي</string>
+    <string name="cityfinder_home">العودة للواجهة الرئيسية</string>
+    <string name="cityfinder_research">إعادة البحث</string>
+    <string name="cityfinder_correct">نعم صحيح</string>
+    <string name="noInternet">لا يمكن الاتصال بالانترنت.حاول مرة أخرى أو استخدم خيار البحث دون اتصال بالانترنت</string>
+    <string name="noCityInDB">حصل خطأ أثناء البحث عن مدينتك.حاول مرة أخرى أو استخدم خيار البحث عن طريق الانترنت</string>
+    <string name="manualSearchDesc">اختر البلد ، سيتم حفظه وتحديث إعدادات التطبيق. إذا لم تجد البلد في القائمة، قم بمراسلتنا لنضيف بلدك للقائمة</string>
+    <string name="cityUpdated">لقد تم تحديث موقعك الحالي بنجاح</string>
+    <string name="manualSearchSave">حفظ</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="feedback">أبلغ عن مشكلة</string>
+    <string name="feedbackEmail">jundi-81@hotmail.com</string>
+    <string name="feedbackSubject">[feedback]</string>
+    <string name="feedbackBody">لا تنسى إضافة معلومات عن نوع جهازك و النظام الذي يعمل عليه</string>
+    <string name="feedbackChooserString">اختر تطبيق الإيميل</string>
+    <string name="feedbackFailed">لا يمكن العثور على تطبيق  للبريد الإلكتروني على جهازك</string>
+    <string name="contactusEmail">jundi-81@hotmail.com</string>
+    <string name="contactusSubject">[general]</string>
+    <string name="contactusBody">لا تنسى إضافة معلومات عن نوع جهازك و النظام الذي يعمل عليه</string>
+    <string name="contactusChooserString">اختر تطبيق الإيميل</string>
+    <string name="contactusFailed">لا يمكن العثور على تطبيق  للبريد الإلكتروني على جهازك</string>
+    <string name="sunrisetxt">الشروق</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="tahsin">أوراد التحصين</string>
+    <string name="DoYouWantToDownloadThisAzanFile">سيتم تحميل ملف الأذان</string>
+    <string name="PleaseWait">يتم تحميل ملف الأذان، الرجاء الانتظار</string>
+    <string name="DownloadSucceeded">تم تحميل الملف</string>
+    <string name="PrayerEntered">دخل وقت الصلاة</string>
+
+</resources>

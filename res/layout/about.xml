@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/secondary_background" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:autoLink="all"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text=""
+        android:textColor="#5c6577"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:autoLink="all"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text=""
+        android:textColor="#5c6577"
+        android:textStyle="bold" /> 
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="@string/version"
+        android:textColor="#5c6577"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/contactUsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvVersion"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/contact_us"
+        android:width="120dp" />
+
+    <Button
+        android:id="@+id/feadbackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvVersion"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/feedback"
+        android:width="120dp" />
+
+</RelativeLayout>

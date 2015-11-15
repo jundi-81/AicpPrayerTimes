@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secondary_background" >
+
+    <com.exina.android.calendar.CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+     <!-- <TextView android:id="@+id/hint"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/hint" /> -->
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">"
+        
+        <TextView
+            android:id="@+id/txt_fajr1"
+            android:text=""
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:text=":"/>
+        <TextView
+            android:text="@string/fajrtxt"
+            android:textAppearance="?android:attr/textAppearanceMedium"  />
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+        
+        <TextView
+            android:id="@+id/txt_zuhur1"
+            android:text=""
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:text=":"/>
+        <TextView
+            android:text="@string/duhrtxt"
+            android:textAppearance="?android:attr/textAppearanceMedium"  />
+    </TableRow>
+    
+ 	<TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+        
+        <TextView
+            android:id="@+id/txt_asr1"
+            android:text=""
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:text=":"/>
+        <TextView
+            android:text="@string/asrtxt"
+            android:textAppearance="?android:attr/textAppearanceMedium"  />
+    </TableRow>
+    
+ 	 <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+        
+        <TextView
+            android:id="@+id/txt_maghrib1"
+            android:text=""
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:text=":"/>
+        <TextView
+            android:text="@string/magribtxt"
+            android:textAppearance="?android:attr/textAppearanceMedium"  />
+    </TableRow>
+    
+ 	  <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+        
+        <TextView
+            android:id="@+id/txt_ishaa1"
+            android:text=""
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:text=":"/>
+        <TextView
+            android:text="@string/ishatxt"
+            android:textAppearance="?android:attr/textAppearanceMedium"  />
+    </TableRow>
+    </TableLayout>
